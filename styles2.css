@@ -3,6 +3,9 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 header{
     background-color: antiquewhite;
 }
@@ -31,7 +34,7 @@ span{
 ul li a{
     text-decoration: none;
 }
-.common-btn{
+.common-btn {
     background-color: orangered;
     padding: 8px 4px;
     border-radius: 8px;
@@ -40,5 +43,72 @@ ul li a{
     color: white;
     border: none;
     align-items: center;
+    cursor: pointer;
+    
 
+
+}
+.common-btn-download{
+    background-color: orangered;
+    padding: 8px 4px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    height: auto;
+    width: 150px;
+
+}
+.outline-btn{
+    background-color: white;
+    padding: 8px 4px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    color: orangered;
+    border: 1px solid orangered;
+    align-items: center;
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+}
+.button-gap{display: flex;
+    margin-top: 15px;
+    
+    
+    align-items: center;
+    gap: 30px;
+  
+
+}
+main{background-color: rgb(254, 221, 209);
+
+}
+.hero-parent {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+    
+}
+div .hero-left-p-1{
+    font-size: 50px;
+    font-weight:lighter;
+    
+}
+.hero-left h2{
+    font-size: 60px;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+.hero-right{
+    align-content: center;
+  
+    
 }
