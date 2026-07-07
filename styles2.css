@@ -134,3 +134,46 @@ div .hero-left-p-1{
     text-align: center;
 
 }
+.parent-what-i-do{
+      background-color: white;
+    max-width: 1200px;
+    max-height: 700px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+   
+
+}
+.child-what-i-do{
+   margin: 70px;
+    padding: 40px 70px;
+    text-align: center;
+    gap: 10px;
+}
+.child-what-i-do h2{
+    font-size: 30px;
+}
+.child-what-i-do-container{
+    margin-top: 30px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.what-i-do-card{ 
+    border: 2px solid rgb(252, 247, 241);
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+    
+    
+}
+.what-i-do-card h2{
+    
+    text-align: left;
+}
+.what-i-do-card p{
+    max-width: 95%;
+}
